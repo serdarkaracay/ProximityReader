@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F2A134C2975AF12004EFEFB /* ProximityReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2A134B2975AF12004EFEFB /* ProximityReaderApp.swift */; };
+		6F2A134E2975AF12004EFEFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2A134D2975AF12004EFEFB /* ContentView.swift */; };
+		6F2A13502975AF13004EFEFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F2A134F2975AF13004EFEFB /* Assets.xcassets */; };
+		6F2A13542975AF13004EFEFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F2A13532975AF13004EFEFB /* Preview Assets.xcassets */; };
+		6F2A135E2975AF13004EFEFB /* ProximityReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2A135D2975AF13004EFEFB /* ProximityReaderTests.swift */; };
+		6F2A13682975AF13004EFEFB /* ProximityReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2A13672975AF13004EFEFB /* ProximityReaderUITests.swift */; };
+		6F2A136A2975AF13004EFEFB /* ProximityReaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2A13692975AF13004EFEFB /* ProximityReaderUITestsLaunchTests.swift */; };
+		6F2A13792975B2EC004EFEFB /* ProximityReader in Resources */ = {isa = PBXBuildFile; fileRef = 6F2A13782975B2EC004EFEFB /* ProximityReader */; };
+		6F2A137B2975B831004EFEFB /* package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2A137A2975B831004EFEFB /* package.swift */; };
+		6F2A137F2975B94C004EFEFB /* PaymentSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2A137E2975B94C004EFEFB /* PaymentSession.swift */; };
+		6F2A13812975B9AD004EFEFB /* ProximityReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2A13802975B9AD004EFEFB /* ProximityReader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F2A135A2975AF13004EFEFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F2A13402975AF12004EFEFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F2A13472975AF12004EFEFB;
+			remoteInfo = ProximityReader;
+		};
+		6F2A13642975AF13004EFEFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F2A13402975AF12004EFEFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F2A13472975AF12004EFEFB;
+			remoteInfo = ProximityReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F2A13482975AF12004EFEFB /* ProximityReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProximityReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F2A134B2975AF12004EFEFB /* ProximityReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProximityReaderApp.swift; sourceTree = "<group>"; };
+		6F2A134D2975AF12004EFEFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6F2A134F2975AF13004EFEFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F2A13512975AF13004EFEFB /* ProximityReader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProximityReader.entitlements; sourceTree = "<group>"; };
+		6F2A13532975AF13004EFEFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6F2A13592975AF13004EFEFB /* ProximityReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProximityReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F2A135D2975AF13004EFEFB /* ProximityReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProximityReaderTests.swift; sourceTree = "<group>"; };
+		6F2A13632975AF13004EFEFB /* ProximityReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProximityReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F2A13672975AF13004EFEFB /* ProximityReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProximityReaderUITests.swift; sourceTree = "<group>"; };
+		6F2A13692975AF13004EFEFB /* ProximityReaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProximityReaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6F2A13782975B2EC004EFEFB /* ProximityReader */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ProximityReader; sourceTree = "<group>"; };
+		6F2A137A2975B831004EFEFB /* package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = package.swift; sourceTree = "<group>"; };
+		6F2A137E2975B94C004EFEFB /* PaymentSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentSession.swift; sourceTree = "<group>"; };
+		6F2A13802975B9AD004EFEFB /* ProximityReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProximityReader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F2A13452975AF12004EFEFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F2A13562975AF13004EFEFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F2A13602975AF13004EFEFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F2A133F2975AF12004EFEFB = {
+			isa = PBXGroup;
+			children = (
+				6F2A137A2975B831004EFEFB /* package.swift */,
+				6F2A134A2975AF12004EFEFB /* ProximityReader */,
+				6F2A13782975B2EC004EFEFB /* ProximityReader */,
+				6F2A135C2975AF13004EFEFB /* ProximityReaderTests */,
+				6F2A13662975AF13004EFEFB /* ProximityReaderUITests */,
+				6F2A13492975AF12004EFEFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F2A13492975AF12004EFEFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F2A13482975AF12004EFEFB /* ProximityReader.app */,
+				6F2A13592975AF13004EFEFB /* ProximityReaderTests.xctest */,
+				6F2A13632975AF13004EFEFB /* ProximityReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F2A134A2975AF12004EFEFB /* ProximityReader */ = {
+			isa = PBXGroup;
+			children = (
+				6F2A134B2975AF12004EFEFB /* ProximityReaderApp.swift */,
+				6F2A134D2975AF12004EFEFB /* ContentView.swift */,
+				6F2A134F2975AF13004EFEFB /* Assets.xcassets */,
+				6F2A13512975AF13004EFEFB /* ProximityReader.entitlements */,
+				6F2A13522975AF13004EFEFB /* Preview Content */,
+				6F2A137E2975B94C004EFEFB /* PaymentSession.swift */,
+				6F2A13802975B9AD004EFEFB /* ProximityReader.swift */,
+			);
+			path = ProximityReader;
+			sourceTree = "<group>";
+		};
+		6F2A13522975AF13004EFEFB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6F2A13532975AF13004EFEFB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6F2A135C2975AF13004EFEFB /* ProximityReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F2A135D2975AF13004EFEFB /* ProximityReaderTests.swift */,
+			);
+			path = ProximityReaderTests;
+			sourceTree = "<group>";
+		};
+		6F2A13662975AF13004EFEFB /* ProximityReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F2A13672975AF13004EFEFB /* ProximityReaderUITests.swift */,
+				6F2A13692975AF13004EFEFB /* ProximityReaderUITestsLaunchTests.swift */,
+			);
+			path = ProximityReaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F2A13472975AF12004EFEFB /* ProximityReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F2A136D2975AF13004EFEFB /* Build configuration list for PBXNativeTarget "ProximityReader" */;
+			buildPhases = (
+				6F2A13442975AF12004EFEFB /* Sources */,
+				6F2A13452975AF12004EFEFB /* Frameworks */,
+				6F2A13462975AF12004EFEFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProximityReader;
+			productName = ProximityReader;
+			productReference = 6F2A13482975AF12004EFEFB /* ProximityReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F2A13582975AF13004EFEFB /* ProximityReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F2A13702975AF13004EFEFB /* Build configuration list for PBXNativeTarget "ProximityReaderTests" */;
+			buildPhases = (
+				6F2A13552975AF13004EFEFB /* Sources */,
+				6F2A13562975AF13004EFEFB /* Frameworks */,
+				6F2A13572975AF13004EFEFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F2A135B2975AF13004EFEFB /* PBXTargetDependency */,
+			);
+			name = ProximityReaderTests;
+			productName = ProximityReaderTests;
+			productReference = 6F2A13592975AF13004EFEFB /* ProximityReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F2A13622975AF13004EFEFB /* ProximityReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F2A13732975AF13004EFEFB /* Build configuration list for PBXNativeTarget "ProximityReaderUITests" */;
+			buildPhases = (
+				6F2A135F2975AF13004EFEFB /* Sources */,
+				6F2A13602975AF13004EFEFB /* Frameworks */,
+				6F2A13612975AF13004EFEFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F2A13652975AF13004EFEFB /* PBXTargetDependency */,
+			);
+			name = ProximityReaderUITests;
+			productName = ProximityReaderUITests;
+			productReference = 6F2A13632975AF13004EFEFB /* ProximityReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F2A13402975AF12004EFEFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					6F2A13472975AF12004EFEFB = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					6F2A13582975AF13004EFEFB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 6F2A13472975AF12004EFEFB;
+					};
+					6F2A13622975AF13004EFEFB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 6F2A13472975AF12004EFEFB;
+					};
+				};
+			};
+			buildConfigurationList = 6F2A13432975AF12004EFEFB /* Build configuration list for PBXProject "ProximityReader" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F2A133F2975AF12004EFEFB;
+			productRefGroup = 6F2A13492975AF12004EFEFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F2A13472975AF12004EFEFB /* ProximityReader */,
+				6F2A13582975AF13004EFEFB /* ProximityReaderTests */,
+				6F2A13622975AF13004EFEFB /* ProximityReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F2A13462975AF12004EFEFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2A13542975AF13004EFEFB /* Preview Assets.xcassets in Resources */,
+				6F2A13502975AF13004EFEFB /* Assets.xcassets in Resources */,
+				6F2A13792975B2EC004EFEFB /* ProximityReader in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F2A13572975AF13004EFEFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F2A13612975AF13004EFEFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F2A13442975AF12004EFEFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2A134E2975AF12004EFEFB /* ContentView.swift in Sources */,
+				6F2A137F2975B94C004EFEFB /* PaymentSession.swift in Sources */,
+				6F2A134C2975AF12004EFEFB /* ProximityReaderApp.swift in Sources */,
+				6F2A137B2975B831004EFEFB /* package.swift in Sources */,
+				6F2A13812975B9AD004EFEFB /* ProximityReader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F2A13552975AF13004EFEFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2A135E2975AF13004EFEFB /* ProximityReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F2A135F2975AF13004EFEFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2A13682975AF13004EFEFB /* ProximityReaderUITests.swift in Sources */,
+				6F2A136A2975AF13004EFEFB /* ProximityReaderUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F2A135B2975AF13004EFEFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F2A13472975AF12004EFEFB /* ProximityReader */;
+			targetProxy = 6F2A135A2975AF13004EFEFB /* PBXContainerItemProxy */;
+		};
+		6F2A13652975AF13004EFEFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F2A13472975AF12004EFEFB /* ProximityReader */;
+			targetProxy = 6F2A13642975AF13004EFEFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6F2A136B2975AF13004EFEFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F2A136C2975AF13004EFEFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6F2A136E2975AF13004EFEFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ProximityReader/ProximityReader.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ProximityReader/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tap To Pay";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taptopay.ProximityReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F2A136F2975AF13004EFEFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ProximityReader/ProximityReader.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ProximityReader/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tap To Pay";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taptopay.ProximityReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6F2A13712975AF13004EFEFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taptopay.ProximityReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProximityReader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProximityReader";
+			};
+			name = Debug;
+		};
+		6F2A13722975AF13004EFEFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taptopay.ProximityReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProximityReader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProximityReader";
+			};
+			name = Release;
+		};
+		6F2A13742975AF13004EFEFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taptopay.ProximityReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProximityReader;
+			};
+			name = Debug;
+		};
+		6F2A13752975AF13004EFEFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taptopay.ProximityReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProximityReader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F2A13432975AF12004EFEFB /* Build configuration list for PBXProject "ProximityReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F2A136B2975AF13004EFEFB /* Debug */,
+				6F2A136C2975AF13004EFEFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F2A136D2975AF13004EFEFB /* Build configuration list for PBXNativeTarget "ProximityReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F2A136E2975AF13004EFEFB /* Debug */,
+				6F2A136F2975AF13004EFEFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F2A13702975AF13004EFEFB /* Build configuration list for PBXNativeTarget "ProximityReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F2A13712975AF13004EFEFB /* Debug */,
+				6F2A13722975AF13004EFEFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F2A13732975AF13004EFEFB /* Build configuration list for PBXNativeTarget "ProximityReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F2A13742975AF13004EFEFB /* Debug */,
+				6F2A13752975AF13004EFEFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F2A13402975AF12004EFEFB /* Project object */;
+}
